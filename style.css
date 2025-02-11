@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+main{
+   background-color: black;
+   
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.effacer{
+  left: 20vw;
+}
+
+
+
+.feu{
+  transform: translate(43vw, 40vh);
+}
+
+.fond{
+    
+    overflow-x: hidden;
+    background-image: url(mapdk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0; 
+    left: 0; 
+    visibility: hidden;
+      
+}
+
+
+  header {
+    position: fixed; 
+    width: 100%; 
+    z-index: 100; 
+}
+
+
+.boss1{
+ background-image: url(boss1.png);
+ background-repeat: no-repeat;
+ height: 5vh;
+ width: 3vw;
+ position: absolute;
+ top: 41vh;
+left: 18vw;
+}
+
+.boss2{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw;
+    position: absolute;
+    top: 24vh;
+    left: 38vw;
+   }
+
+
+.boss3{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw;
+    position: absolute;
+    top: 41vh;
+    left: 61vw;
+   }
+
+.boss4{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 56vh;
+    left: 73vw;
+   }
+
+.boss5{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 66vh;
+    left: 41vw;
+   }
+
+.boss6{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;           
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 28vh;
+    left: 75vw;
+   }
+
+.boss7{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 45vh;
+    left: 46vw;
+   }
+
+.boss8{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 50vh;
+    left: 29.6vw;
+   }
+
+.boss9{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 86vh;
+    left: 26.8vw;
+   }
+
+.boss10{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 43vh;
+    left: 34.2vw;
+   }
+
+.boss11{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 17vh;
+    left: 34vw;
+   }
+
+.boss12{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 15vh;
+    left: 38vw;
+   }
+
+.boss13{
+    background-image: url(boss1.png);
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw; 
+    position: absolute;
+    top: 17vh;
+    left: 42vw;
+   }
+
+#bouton1{
+  background-color: rgb(240, 164, 0);
+  width: 7vw;
+  position: absolute;
+  top: 89vh;
+  left: 50vw;
+  cursor: pointer;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+
+
+#bouton2{
+  background-color: rgb(240, 164, 0);
+  visibility: hidden;
+  position: absolute;
+  left: 25vw;
+  top: 4.8vh;
+  height: 4vh;
+  width: 4vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#bouton3{
+  background-color: rgb(240, 164, 0);
+  visibility: hidden;
+  position: absolute;
+  left: 25vw;
+  top: 4.5vh;
+  height: 8vh;
+  width: 8vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#bouton4{
+  background-color:rgb(240, 164, 0);
+  width: 7vw;
+  transform: translate(32vw, 50vh);
+  cursor: pointer;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+ 
+
+ .modale {
+    background: linear-gradient(to bottom, rgb(131, 90, 3), 50%, black);
+    transition: background 3s ease-in-out; 
+    height: 100vh;
+    width: 25vw;
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding-bottom: 11vh;
+  }
+  
+  
+  .carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    height: 80%;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 85%;
+    overflow: hidden;
+    
+  }
+  
+  .carousel img {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    padding-top: 1.2vh;
+  }
+  
+  .carousel img.active {
+    opacity: 1;
+  }
+  
+  
+  .modale-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 50vh; 
+    margin-top: 20px;
+  }
+  #prevBtn, #nextBtn {
+    background: rgba(0, 0, 0, 0.3); 
+    border: none;
+   
+    cursor: pointer;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10%);
+    z-index: 10; 
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    opacity: 1;
+}
+
+#prevBtn {
+    left: 0px;
+}
+
+#nextBtn {
+    right: 0px;
+}
+
+
+  .txtboss{
+    color: rgb(197, 161, 0);
+    font-size: 1.3vw;
+    font-family: "Lugrasimo", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 2px;
+    transform: translateY(10vh);
+}
+  
+
+  .titreboss{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    font-family: "Lugrasimo", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 2.2vh;
+    font-weight: bold;
+    transform: translateY(4vh);
+}
+  
+
+
+
+  .navbar {
+    background: linear-gradient(to bottom, rgb(131, 90, 3), 60%, rgba(0, 0, 0, 0.842));
+    transition: background 3s ease-in-out; /* Transition douce */
+    color: rgb(0, 0, 0);
+    display: flex
+;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
+    position: absolute;
+    width: 100vw;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+  background: linear-gradient(to bottom, rgb(131, 90, 3), 60%, rgba(0, 0, 0, 0.842));
+    transition: background 3s ease-in-out; 
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5vh 1vw;
+    cursor: pointer;
+    font-size: 2em;
+    visibility: hidden;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    visibility: hidden;
+}
+
+.menu-content a {
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+.menu-content a:hover {
+    background-color: #555;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+
+.logo {
+    font-size: 2em;
+    color: black;
+    transform: translateX(-16vw);
+    font-weight: bold;
+}
+
+.txtnavbar{
+    font-size: 2em;
+    color: black;
+    transform: translateX(-1vw);
+}
+
+
+
+@media screen and (max-width: 1280px) {
+  .fond .boss1{ visibility: hidden;}
+  .fond .boss2{ visibility: hidden;}
+  .fond .boss3{ visibility: hidden;}
+  .fond .boss4{ visibility: hidden;}
+  .fond .boss5{ visibility: hidden;}
+  .fond .boss6{ visibility: hidden;}
+  .fond .boss7{ visibility: hidden;}
+  .fond .boss8{ visibility: hidden;}
+  .fond .boss9{ visibility: hidden;}
+  .fond .boss10{ visibility: hidden;}
+  .fond .boss11 {visibility: hidden;}
+  .fond .boss12 {visibility: hidden;}
+  .fond .boss13{ visibility: hidden;}
+
+  .fond {
+    background-position: -8vw center;
+  }
+.fond #bouton1{
+  left: 53vw;
+}
+
+.fond #bouton2{
+  top: 6vh;
+}
+.fond #bouton3{
+  top: 5.5vh;
+}
+
+ #bouton4{
+  transform: translate(29vw, 50vh);
+}
+
+.logo{
+  transform: translateX(-14vw);
+}
+.txtnavbar{
+  transform: translateX(-3vw);
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+  .txtnavbar{
+    font-size: 0.9em;
+    transform: translateX(-8vw);
+  }
+
+  .logo{
+    font-size: 1em;
+    transform: translateX(-8vw);
+  }
+
+  #bouton4{
+    transform: translate(-29vw, 50vh);
+font-size: 1.2em;
+width: 15vw;
+  }
+
+  .navbar{
+    width: 102vw;
+  }
+
+.feu{
+  transform: translate(17vw, 40vh);
+}
+
+.menu-button{
+  font-size: 1em;
+  transform: translateX(-8vw);
+}
+.menu-content {
+min-width: 121px;
+transform: translateX(-15vw);  
+}
+
+
+.menu-content a{
+  font-size: 4.2vw;
+}
+
+#bouton1{
+  width: 18vw;
+  font-size: 4.5vw;
+  left: 83vw !important;
+  top: 93vh;
+}
+
+#bouton2{
+  top: 3.4vh !important;
+left: 83vw;
+font-size: 4.5vw;
+width: 13vw;
+}
+
+.modale{
+  width: 83vw;
+}
+
+.titreboss{
+  font-size: 9vw;
+}
+
+.txtboss{
+  font-size: 4.3vw;
+}
+
+#bouton3{
+  top: 3.5vh !important;
+left: 84vw;
+font-size: 4.3vw;
+width: 16vw;
+}
+
+.carousel{
+  height: 89%;
+}
+
+
+}

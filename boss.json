@@ -1,0 +1,158 @@
+ [
+    {
+        "Boss obligatoire": "oui",
+        "pnj_invoquables": [],
+        "parade_possible": "oui",
+        "immunites": ["poison", "toxique"],
+        "resistances": ["Magie"],
+        "faiblesses": ["Feu", "Congélation"],
+        "localisation": "Cimetière des Cendres",
+        "nom": "Iudex Gundyr",
+      "images": ["images/ludex4.jpg" , "images/gundyr2.png" , "images/gundyr3.jpg"]
+       
+    },
+    {
+      "nom": "Vordt de la Vallée Boréale",
+      "localisation": "Grand Mur de Lothric",
+      "faiblesses": ["Feu", "Ténèbres"],
+      "resistances": ["Taille", "Estoc"],
+      "immunites": ["Congélation", "Poison", "Toxique", "Saignement"],
+      "parade_possible": "non",
+      "pnj_invoquables": ["Maître de l’épée Chevalier Lion Albert"],
+      "Boss obligatoire": "oui",
+      "images": ["images/vordt1.jpg" , "images/vordt2.jpg" , "images/vordt3.jpg"]
+    },
+    {
+      "nom": "Arbre Géant Maudit",
+      "localisation": "Camp de Mort-Vivants",
+      "faiblesses": ["Feu","Taille","Estoc"],
+      "resistances": [],
+      "immunites": ["Poison", "Toxique", "Saignement","Congélation"],
+      "parade_possible": "non",
+      "pnj_invoquables": [],
+      "Boss obligatoire": "oui",
+      "images": ["images/arbre1.webp" , "images/arbre2.jpg" , "images/arbre3.webp"]
+    },
+    {
+      "nom": "Sage de Cristal",
+      "localisation": "Chemin des Sacrifices",
+      "faiblesses": ["Taille", "Estoc","Frappe","Poison","Toxique"],
+      "resistances": ["Magie"],
+      "immunites": [],
+      "parade_possible": "non",
+      "pnj_invoquables": ["Eygon de Carim"],
+      "Boss obligatoire": "oui",
+      "images": ["images/sage1.jpg" , "images/sage2.jpg" , "images/sage3.webp"]
+    },
+    {
+      "nom": "Veilleurs des Abysses",
+      "localisation": "Forteresse de Farron",
+      "faiblesses": ["Foudre","Coup dans le dos"],
+      "resistances": ["Ténèbres","Saignement"],
+      "immunites": ["Poison", "Toxique"],
+      "parade_possible": "oui",
+      "pnj_invoquables": ["Sirris , Londor Pâle Shade, Gotthard "],
+      "Boss obligatoire": "oui",
+      "images": ["images/abyss1.webp" , "images/abyss2.jpg" , "images/abyss3.jpg"]
+    },
+    {
+      "nom": "Diacres des Profondeurs",
+      "localisation": "Catherdes des Profondeurs",
+      "faiblesses": ["Foudre", "Saignement"],
+      "resistances": ["Feu"],
+      "immunites": [],
+      "parade_possible": "oui",
+      "pnj_invoquables": ["Anri d'Astora, Sirris, Horace"],
+      "Boss obligatoire": "oui",
+      "images": ["images/diacre1.jpg" , "images/diacre2.jpg" , "images/diacre3.jpg"]
+    },
+    {
+        "nom": "Chef Suprême Wolnir",
+        "localisation": "Catacombes de Carthus",
+        "faiblesses": [ "Bracelets"],
+        "resistances": ["Ténèbres"],
+        "immunites": ["Poison", "Toxique", "Saignement","Congélation"],
+        "parade_possible": "non",
+        "pnj_invoquables": [],
+        "Boss obligatoire": "oui",
+        "images": ["images/wolnir1.webp" , "images/wolnir2.webp" , "images/wolnir3.jpg"]
+    },
+    {
+      "nom": "Grand Maître Sulyvahn",
+      "localisation": "Irithyll de la Vallée Boréale",
+      "faiblesses": ["Estoc", "Parade"],
+      "resistances": ["Poison", "Toxique","Saignement","Congélation"],
+      "immunites": [],
+      "parade_possible": "oui",
+      "pnj_invoquables": ["Gotthard, Anri d'Astora , Londor Pâle Shade"],
+      "Boss obligatoire": "oui",
+      "images": ["images/sulyvahn1.webp" , "images/sulyvahn2.jpg" , "images/sulyvahn3.jpg"]
+    },
+    {
+      "nom": "Yhorm le Géant",
+      "localisation": "Profondeurs d'Irithyll",
+      "faiblesses": ["Maître des Tempêtes"],
+      "resistances": ["Taille", "Estoc"],
+      "immunites": ["Feu", "Poison", "Toxique", "Saignement","Congélation"],
+      "parade_possible": "non",
+      "pnj_invoquables": ["Siegward de Catarina"],
+      "Boss obligatoire": "oui",
+      "images": ["images/yhorm1.jpg" , "images/yhorm2.webp" , "images/yhorm3.jpg"]
+    },
+    {
+      "nom": "Aldrich, Le Dévoreur ",
+      "localisation": "Anor Londo",
+      "faiblesses": ["Feu","Foudre","Frappe","Voeu de silence","Espadon de Farron","Espadon de Chevalier-loup"],
+      "resistances": ["Magie","Ténèbres"],
+      "immunites": ["Poison", "Toxique"],
+      "parade_possible": "non",
+      "pnj_invoquables": ["Anri d'Astora"],
+      "Boss obligatoire": "oui",
+      "images": ["images/aldrich1.jpg" , "images/aldrich2.webp" , "images/aldrich3.jpg"]
+    },
+    {
+        "nom": "Danseuse de la Vallée Boréale",
+        "localisation": "Château de Lothric",
+      "faiblesses": ["Ténèbres"],
+      "resistances": ["Saignement"],
+      "immunites": ["Poison", "Toxique","Congélation"],
+      "parade_possible": "non",
+      "pnj_invoquables": ["Maître de l’épée"],
+      "Boss obligatoire": "oui",
+      "images": ["images/dancer1.webp" , "images/Dancer2.jpg" , "images/dancer3.jpg"]
+    },
+    {
+      "nom": "Armure de Tueur de Dragons",
+      "localisation": "Château de Lothric",
+      "faiblesses": ["Congélation"],
+      "resistances": ["Tenèbres", "Foudre"],
+      "immunites": ["Poison", "Toxique", "Saignement"],
+      "parade_possible": "non",
+      "pnj_invoquables": [ "Sirris, Eygon"],
+      "Boss obligatoire": "oui",
+      "images": ["images/armure1.webp" , "images/armure2.webp" , "images/armure3.jpg"]
+    },
+    {
+      "nom": "Lorian le Prince Aîné et Lothric le Prince Cadet",
+      "localisation": "Château de Lothric",
+      "faiblesses": ["Foudre", "Congélation"],
+      "resistances": ["Ténèbres"],
+      "immunites": ["Poison", "Toxique"],
+      "parade_possible": "oui",
+      "pnj_invoquables": ["Sirris, Orbeck de Vinheim"],
+      "Boss obligatoire": "oui",
+      "images": ["images/lothric1.jpg" , "images/lothric2.jpg" , "images/lothric3.jpg"]
+    },
+    {
+      "nom": "L'Âme des Cendres",
+      "localisation": "Kiln de la Première Flamme",
+      "faiblesses": ["Foudre" ],
+      "resistances": ["Feu"],
+      "immunites": [],
+      "parade_possible": "oui",
+      "pnj_invoquables": ["Yuria de Londor, Londor Pâle Shade "],
+      "Boss obligatoire": "oui",
+      "images": ["images/cendres1.webp" , "images/cendre2.jpg" , "images/cendre3.jpg"]
+    }
+  ]
+  

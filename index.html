@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body> <!-- Assure-toi que body est ici -->
+    <header>
+        <nav class="navbar">
+            <p class="logo">Dark Souls III</p>
+            <p class="txtnavbar">Interactive map website</p>
+            <div class="menu">
+                <button class="menu-button">boss</button>
+                <div class="menu-content">
+                    <a href="#" data-boss="0">Iudex Gundyr</a>
+                    <a href="#" data-boss="1">Vordt</a>
+                    <a href="#" data-boss="2">Arbre Maudit</a>
+                    <a href="#" data-boss="3">Sage de Cristal</a>
+                    <a href="#" data-boss="4">Veilleurs des Abysses</a>
+                    <a href="#" data-boss="5">Diacres des Profondeurs</a>
+                    <a href="#" data-boss="6">Wolnir</a>
+                    <a href="#" data-boss="7">Sulyvahn</a>
+                    <a href="#" data-boss="8">Yhorm le Géant</a>
+                    <a href="#" data-boss="9">Aldrich, Le Dévoreur</a>
+                    <a href="#" data-boss="10">Danseuse de la Vallée Boréale</a>
+                    <a href="#" data-boss="11">Armure de Tueur de Dragons</a>
+                    <a href="#" data-boss="12">Lothric</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img src="feu2.png" alt="Description de l'image" class="feu">
+        <button id="bouton4">Carte</button>
+        <div class="fond">
+            <div class="modale">
+                <div class="carousel-container">
+                    <a href="#"><button id="prevBtn">◀</button></a> 
+                    <div class="carousel" id="carousel"></div>
+                    <a href="#"><button id="nextBtn">▶</button></a> 
+                </div>
+            </div>
+            <button id="bouton1"> Final Boss </button>
+            <button id="bouton2">close</button>
+            <button id="bouton3">Boss majeur</button>
+            <a href="#"> <div class="boss1 effacer boss icon" data-boss="0"></div> </a> 
+            <a href="#"><div class="boss2 effacer boss icon" data-boss="1"></div>  </a>
+            <a href="#"><div class="boss3 effacer boss icon" data-boss="2"></div> </a>
+            <a href="#"> <div class="boss4 effacer boss icon" data-boss="3"></div></a>
+            <a href="#"><div class="boss5 effacer boss icon" data-boss="4"></div></a>
+            <a href="#"><div class="boss6 effacer boss icon" data-boss="5" ></div></a>
+            <a href="#"><div class="boss7 effacer boss icon" data-boss="6"></div></a>
+            <a href="#"> <div class="boss8 effacer boss icon" data-boss="7"></div></a>
+            <a href="#"><div class="boss9 effacer boss icon" data-boss="8"></div></a>
+            <a href="#"><div class="boss10 effacer boss icon" data-boss="9"></div></a>
+            <a href="#"><div class="boss11 effacer boss icon" data-boss="10"></div></a>
+            <a href="#"> <div class="boss12 effacer boss icon" data-boss="11"></div></a>
+            <a href="#"><div class="boss13 effacer boss icon" data-boss="12"></div></a>
+            <div class="boss14"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
