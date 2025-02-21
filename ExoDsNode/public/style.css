@@ -30,7 +30,7 @@ main{
 .fond{
     
     overflow-x: hidden;
-    background-image: url(mapdk.png);
+    background-image: url(images/mapdk.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -52,7 +52,7 @@ main{
 
 
 .boss1{
- background-image: url(boss1.png);
+ background-image: url(images/boss1.png);
  background-repeat: no-repeat;
  height: 5vh;
  width: 3vw;
@@ -62,7 +62,7 @@ left: 18vw;
 }
 
 .boss2{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw;
@@ -73,7 +73,7 @@ left: 18vw;
 
 
 .boss3{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw;
@@ -83,7 +83,7 @@ left: 18vw;
    }
 
 .boss4{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -93,7 +93,7 @@ left: 18vw;
    }
 
 .boss5{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -103,7 +103,7 @@ left: 18vw;
    }
 
 .boss6{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;           
     height: 5vh;
     width: 3vw; 
@@ -113,7 +113,7 @@ left: 18vw;
    }
 
 .boss7{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -123,7 +123,7 @@ left: 18vw;
    }
 
 .boss8{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -133,7 +133,7 @@ left: 18vw;
    }
 
 .boss9{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -143,7 +143,7 @@ left: 18vw;
    }
 
 .boss10{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -153,7 +153,7 @@ left: 18vw;
    }
 
 .boss11{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -163,7 +163,7 @@ left: 18vw;
    }
 
 .boss12{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 
@@ -173,7 +173,7 @@ left: 18vw;
    }
 
 .boss13{
-    background-image: url(boss1.png);
+    background-image: url(images/boss1.png);
     background-repeat: no-repeat;
     height: 5vh;
     width: 3vw; 

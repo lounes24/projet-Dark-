@@ -10,7 +10,7 @@ document.getElementById("bouton1").addEventListener("click", function () {
 
   
   document.querySelector(".fond").style.backgroundImage =
-    "url('fondfinal.jpg')";
+    "url('images/fondfinal.jpg')";
   document.querySelector(".fond").style.backgroundSize = "cover";
 
   
@@ -74,7 +74,7 @@ document.getElementById("bouton3").addEventListener("click", function () {
   }
 
   
-  document.querySelector(".fond").style.backgroundImage = "url('mapdk.png')";
+  document.querySelector(".fond").style.backgroundImage = "url('images/mapdk.png')";
   document.querySelector(".fond").style.backgroundSize = "cover";
 
   bosses.forEach((icon) => {
@@ -220,23 +220,7 @@ bouton.addEventListener("click", function () {
 });
 
 
-fetch("boss.json")
-  .then((response) => response.json()) 
-  .then((data) => {
-  
-    const icones = document.querySelectorAll(".icon"); 
-    icones.forEach((icon) => {
 
-      icon.addEventListener("click", function () {
-        const bossId = icon.getAttribute("data-boss"); 
-        const bossData = data[bossId]; 
-        afficherInformations(bossData); 
-      });
-    });
-  })
-  .catch((error) => {
-    console.error("Erreur lors de la récupération des données:", error);
-  });
 
 document.getElementById("bouton1").addEventListener("click", function () {
   
@@ -293,6 +277,7 @@ document.getElementById("bouton4").addEventListener("click", function () {
     if (fond.style.visibility === "hidden" || !fond.style.visibility) {
         fond.style.visibility = "visible";
         feu.style.display = "none";
+        bouton4.style.visibility = "hidden";
     } else {
         fond.style.visibility = "hidden";
         feu.style.visibility = "visible";
@@ -358,3 +343,33 @@ function stopDrag() {
     document.removeEventListener("touchmove", drag);
     document.removeEventListener("touchend", stopDrag);
 }
+
+
+
+
+fetch("http://localhost:4000/api/boss") // Mets l'URL de ton serveur
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Erreur lors de la récupération des données");
+    }
+    return response.json();
+  })
+  .then((data) => {
+    const icones = document.querySelectorAll(".icon");
+    icones.forEach((icon) => {
+      icon.addEventListener("click", function () {
+        const bossId = icon.getAttribute("data-boss");
+        const bossData = data[bossId];
+        if (bossData) {
+          afficherInformations(bossData);
+        } else {
+          console.error("Boss non trouvé :", bossId);
+        }
+      });
+    });
+  })
+  .catch((error) => {
+    console.error("Erreur:", error);
+
+    
+  });
